@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="D$5H%,T}:vU5a}|OUi4%">Puntos</variable><variable id="k:s_-7Jlc;9k3Z:R=CP`">Mano</variable></variables><block type="device_gesture_event" id="@AoxS96.F2g$L9f8APjO" x="0" y="0"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="3pFOZTZv}{Gz6{Vj@%5%"><field name="VAR" id="k:s_-7Jlc;9k3Z:R=CP`">Mano</field><value name="VALUE"><shadow type="math_number" id="~4_~glb)U-V8xIcIC_C3"><field name="NUM">0</field></shadow><block type="device_random" id="_`!K:{sOKHTTDEh;6Kyb"><value name="min"><shadow type="math_number" id="A6T89b|,)8]U[ggLN?g%"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="pp_kHjf2LE($/?ii7W5("><field name="NUM">3</field></shadow></value></block></value><next><block type="controls_if" id="cjJd4j302*s!3Msa4y]6"><mutation elseif="1" else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="ol;sB];`ivn7SR9Cyi)e"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="k]y1)_Pr@+8pvoB$896E"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="/bO;ca(YNw?yDRi0TS7o"><field name="NUM">0</field></shadow><block type="variables_get" id="p,IMM(LvZ,kSN;I5oUVR"><field name="VAR" id="k:s_-7Jlc;9k3Z:R=CP`">Mano</field></block></value><value name="B"><shadow type="math_number" id="Np_WU,8VL0b#1H;4gBSh"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id=",C^O%LxV;,BY42x@0c)g"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></statement><value name="IF1"><shadow type="logic_boolean" id="gPfluXm@EeL97x@ILwx0"><field name="BOOL">FALSE</field></shadow><block type="logic_compare" id="1_)OoplGcSP1Fn0zjp6v"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="0HS|/*!-9Lh3`au30d}z" disabled-reasons="pxt_automatic_disabled"><field name="NUM">0</field></shadow><block type="variables_get" id="WnO37uHb7;MVn65i/rg1"><field name="VAR" id="k:s_-7Jlc;9k3Z:R=CP`">Mano</field></block></value><value name="B"><shadow type="math_number" id="HsWsJHwx+4!v{SyPdpdm"><field name="NUM">2</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="B,!/mJPC:=diH6wKH2Z1"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        # # . # # 
+        # # . # #
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="DSbMuIiqo-mm+~|[M=p{"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field></block></statement></block></next></block></statement></block></xml>
